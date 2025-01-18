@@ -7,9 +7,9 @@ export default function Header() {
           <span className="font-bold text-lg">ToDoNext</span>
         </div>
         <nav className="flex space-x-4">
-          <a href="#" className="text-white hover:underline">Criar Tarefa</a>
-          <a href="#" className="text-white hover:underline">Tarefas</a>
-          <a href="#" className="text-white hover:underline">Sobre</a>
+          <a href="/" className="text-white hover:underline">Tarefas</a>
+          <a href="/todos/create" className="text-white hover:underline">Criar Tarefa</a>
+          <a href="/about" className="text-white hover:underline">Sobre</a>
         </nav>
       </header>
     );
