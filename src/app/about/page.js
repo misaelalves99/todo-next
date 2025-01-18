@@ -1,4 +1,4 @@
-// src/pages/about.tsx
+// src/app/about.js
 import Head from "next/head";
 
 export default function About() {
